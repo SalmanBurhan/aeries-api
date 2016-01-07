@@ -7,7 +7,7 @@ import re, dateutil.parser
 from bs4 import BeautifulSoup
 
 #The default address of the gradebook page for AUSDK12 Aeries
-ADDRESS = 'https://abi.ausdk12.org/aeriesportal/default.aspx'
+ADDRESS = 'https://portals.hemetusd.org/aeries.net/default.aspx'
 
 #Get all gradebooks from the ADDRESS page
 def getGradebooks(session):
