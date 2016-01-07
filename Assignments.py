@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 #   through BeautifulSoup)
 import dateutil.parser, re
 
-ADDRESS =   'https://abi.ausdk12.org/aeriesportal/default.aspx'
+ADDRESS =   'https://portals.hemetusd.org/aeries.net/default.aspx'
 
 def getAssignments(session):
     soup = BeautifulSoup(getMonthPage(session))
