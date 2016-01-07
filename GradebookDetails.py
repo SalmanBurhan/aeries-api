@@ -3,7 +3,7 @@
 from bs4 import BeautifulSoup
 import re, dateutil.parser, time
 
-BASE_URL = 'https://abi.ausdk12.org/aeriesportal/'
+BASE_URL = 'https://portals.hemetusd.org/aeries.net/'
 DEFAULT_PAGE = 'default.aspx'
 GRADEBOOK_PAGE = 'GradebookDetails.aspx'
 
