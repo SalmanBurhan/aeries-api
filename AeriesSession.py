@@ -11,7 +11,7 @@ from selenium.webdriver.support import select
 import time
 
 #Base URL of the AUSDK12 Aeries system
-BASE_URL=       'https://abi.ausdk12.org/aeriesportal/'
+BASE_URL=       'https://portals.hemetusd.org/aeries.net/'
 #Name of the login page (relative to the base URL)
 LOGIN_PAGE =    'LoginParent.aspx'
 #<form> id, not currently used
